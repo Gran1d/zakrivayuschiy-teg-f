@@ -13,4 +13,6 @@
   --inline-padding-header: clamp(7.625rem, 7.0481rem + 2.4615vw, 8.125rem);
   --accent-color: #000;
   --animation-fill-color: #FF0000;
+  --header-title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --header-subtitle-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 }

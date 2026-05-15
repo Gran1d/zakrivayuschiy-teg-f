@@ -43,15 +43,15 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  font-family: var(--font-family-accent), sans-serif;
+  font-family: var(--font-family-accent), fantasy;
 }
 
 .header-container__title {
-  font-size: 65px;
+  font-size: var(--header-title-font-size);
 }
 
 .header-container__subtitle {
-  font-size: 23px;
+  font-size: var(--header-subtitle-font-size);
   text-transform: uppercase;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .image-lable {
-  font-family: var(--font-family-accent), sans-serif;
+  font-family: var(--font-family-accent), fantasy;
   font-size: 14px;
   position: absolute;
   top: 25px;
@@ -149,6 +149,7 @@
 .card-text {
   font-size: 18px;
   font-weight: 410;
+  line-height: 21px;
 }
 
 .card-buttons {
@@ -218,7 +219,7 @@
 }
 
 .button__text {
-  font-family: var(--font-family-accent), sans-serif;
+  font-family: var(--font-family-accent), fantasy;
   font-size: 14px;
 }
 
@@ -252,7 +253,7 @@
 }
 
 .save-button__text {
-  font-family: var(--font-family-accent), sans-serif;
+  font-family: var(--font-family-accent), fantasy;
   font-size: 14px;
 }
 
@@ -265,11 +266,9 @@
   box-sizing: border-box;
   flex-direction: column;
   gap: 30px;
-  max-block-size: 191px;
   max-inline-size: 353px;
-  padding: 30px;
+  padding: 28px;
   border: 2px solid var(--accent-color);
-  overflow: hidden;
 }
 
 .dialog-container {
@@ -283,7 +282,7 @@
 }
 
 .dialog-text {
-  font-family: var(--font-family-accent), sans-serif;
+  font-family: var(--font-family-accent), fantasy;
   font-size: 14px;
   line-height: 1.5;
   text-transform: uppercase;
@@ -296,7 +295,7 @@
 }
 
 .dialog-button__text {
-  font-family: var(--font-family-accent), sans-serif;
+  font-family: var(--font-family-accent), fantasy;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -324,6 +323,11 @@
 
   .save-popup[open] {
     max-inline-size: 341px;
+    padding: 28px 38px;
+  }
+
+  .dialog-button {
+    inline-size: 261px
   }
 }
 
